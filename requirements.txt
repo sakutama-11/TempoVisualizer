@@ -20,7 +20,6 @@ numba==0.54.1
 numpy==1.20.0
 packaging==21.3
 pooch==1.5.2
---no-use-pep517  cm-rgb
 https://github.com/pygobject/pycairo/releases/download/v1.13.1/pycairo-1.13.1.tar.gz
 pycparser==2.21
 pycrypto==2.6.1
