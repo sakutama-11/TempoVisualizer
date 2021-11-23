@@ -6,4 +6,5 @@ locales
 libsndfile1-dev
 libgirepository1.0-dev
 libcairo2-dev
+python-cairo
 python3-llvmlite
