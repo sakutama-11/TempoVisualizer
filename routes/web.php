@@ -14,7 +14,6 @@ use App\Http\Controllers\TempoVisualizerController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [TempoVisualizerController::class, 'get']);
+Route::get('/sample', [TempoVisualizerController::class, 'sample']);
 Route::post('/', [TempoVisualizerController::class, 'post']);
