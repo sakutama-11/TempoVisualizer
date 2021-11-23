@@ -6,3 +6,4 @@ unzip
 locales
 python3-pip
 libsndfile1-dev
+libgirepository1.0-dev
