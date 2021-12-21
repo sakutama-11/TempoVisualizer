@@ -15,5 +15,7 @@ use App\Http\Controllers\TempoVisualizerController;
 */
 
 Route::get('/', [TempoVisualizerController::class, 'get']);
-Route::get('/sample', [TempoVisualizerController::class, 'sample']);
+Route::delete('/', [TempoVisualizerController::class, 'delete']);
 Route::post('/', [TempoVisualizerController::class, 'post']);
+Route::get('/result/{execId?}', [TempoVisualizerController::class, 'result'])->name('result');
+Route::get('/sample', [TempoVisualizerController::class, 'sample']);
