@@ -67,4 +67,4 @@ if __name__ == '__main__':
     img = create_image_from_tempo(beats, beat_time, tempo, arr_tempo)
     ret = cv2.imwrite('./storage/image/' + image_filename,img)
     assert ret,'failed'
-    print(image_filename)
+    print(tempo)
